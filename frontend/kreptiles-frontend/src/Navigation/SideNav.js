@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "./css/SideNav.css";
-import minusSign from "../FileAssets/Icons/dash-square.svg";
-import plusSign from "../FileAssets/Icons/plus-square.svg";
 
 const navItems = [
   { label: "About Me", id: 0 },

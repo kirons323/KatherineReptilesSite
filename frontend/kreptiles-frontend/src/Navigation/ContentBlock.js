@@ -19,6 +19,14 @@ export default function ContentBlock({ section=1 }) {
         return <Reptiles></Reptiles>;
       case 2:
         return <CrochetProjects></CrochetProjects>;
+      default:
+        return (
+          <div className="main-content">
+            <div className="about-card-container">
+              <AboutMe />
+            </div>
+          </div>
+      );
     }
     
 }
