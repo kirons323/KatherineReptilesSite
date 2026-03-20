@@ -1,0 +1,56 @@
+/* Full container, center everything */
+.coming-soon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh; /* takes most of the vertical space */
+  width: 100%;
+  background: linear-gradient(135deg, #fef3c7, #fcd34d);
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+/* Banner styling */
+.coming-soon-banner {
+  text-align: center;
+  padding: 40px 60px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  animation: pulse 2s infinite;
+}
+
+/* Header */
+.coming-soon-banner h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #b45309;
+  font-weight: bold;
+}
+
+/* Paragraph */
+.coming-soon-banner p {
+  font-size: 1.25rem;
+  color: #78350f;
+}
+
+/* Subtle pulsing animation */
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .coming-soon-banner {
+    padding: 30px 20px;
+  }
+
+  .coming-soon-banner h1 {
+    font-size: 2rem;
+  }
+
+  .coming-soon-banner p {
+    font-size: 1rem;
+  }
+}
