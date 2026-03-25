@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/ContentBlock.css";
+import "../css/ContentBlock.css";
 import AboutMe from "./AboutMe";
 import Reptiles from "./Reptiles";
 import CrochetProjects from "./CrochetProjects";

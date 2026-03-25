@@ -1,4 +1,4 @@
-import "./css/AboutMe.css";
+import "../css/AboutMe.css";
 import headshot from "../FileAssets/Images/headshot.jpg";
 import resume from "../FileAssets/KatherineIrons_Resume.pdf";
 
@@ -16,8 +16,8 @@ export default function AboutMe() {
             <h1>About Me</h1>
             <p className="about-summary">
               Hi! I'm someone who enjoys coding and having fun while doing so. You might see some 
-              finicky animations or themes on this site, and that's because I don't enjoy when anything 
-              is too serious. Check out some of my exotic pet collection or crochet projects while you're here!
+              finicky animations or themes on this site, and that's because I want it to be too serious.
+               Check out some of my exotic pet collection or crochet projects while you're here!
             </p>
             <a href={ resume } download="KatherineIrons_Resume.pdf" className="resume-button">
               Download Resume
