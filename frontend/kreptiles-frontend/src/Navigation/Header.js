@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./css/Header.css";
+import "../css/Header.css";
 
 const navItems = [
   { label: "About Me", id: 0 },
@@ -8,23 +8,13 @@ const navItems = [
 ];
 
 export default function Header({ onSelect }) {
-  const [collapsed, setCollapsed] = useState(true);
   const [active, setActive] = useState(0);
 
   return (
     <header className="header-nav">
       <div className="nav-inner">
-        
-        {/* Toggle Button (for mobile/menu) */}
-        <button
-          className="toggle-btn"
-          onClick={() => setCollapsed(!collapsed)}
-        >
-          ☰
-        </button>
 
-        {/* Nav Items */}
-        <ul className={`nav-list ${collapsed ? "collapsed" : ""}`}>
+        <ul className="nav-list">
           {navItems.map((item, index) => (
             <li
               key={index}
@@ -32,7 +22,6 @@ export default function Header({ onSelect }) {
               onClick={() => {
                 setActive(index);
                 onSelect(item.id);
-                setCollapsed(true); // auto close on click (mobile feel)
               }}
             >
               {item.label}

@@ -3,7 +3,9 @@ import MainBlock from './Navigation/MainBlock';
 
 function App() {
   return (
-    <MainBlock></MainBlock>
+    <div className="App">
+      <MainBlock></MainBlock>
+    </div>
   );
 }
 

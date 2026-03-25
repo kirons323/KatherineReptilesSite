@@ -16,7 +16,6 @@
   padding: 0 20px;
 }
 
-/* Toggle button */
 .toggle-btn {
   font-size: 24px;
   background: none;
@@ -26,14 +25,12 @@
   margin-right: 20px;
 }
 
-/* Nav list */
 .nav-list {
   display: flex;
   list-style: none;
   gap: 20px;
 }
 
-/* Nav items */
 .nav-item {
   cursor: pointer;
   padding: 8px 12px;
@@ -44,12 +41,6 @@
   border-radius: 5px;
 }
 
-/* Mobile collapse */
-.nav-list.collapsed {
-  display: none;
-}
-
-/* Optional: responsive behavior */
 @media (min-width: 768px) {
   .toggle-btn {
     display: none;
