@@ -1,0 +1,116 @@
+/* Container: top-aligned, full width */
+.reptile-container {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: flex-start; /* top-aligned */
+  width: 100%;             /* full width of viewport */
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(to bottom, #f9fafb, #eef2ff);
+  box-sizing: border-box;
+}
+
+/* Card */
+.reptile-card {
+  width: 100%;          /* fill container horizontally */
+  max-width: 900px;     /* cap max width */
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* center child content */
+  text-align: center;
+}
+
+/* Reptile Selector Buttons */
+.reptile-selector {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.reptile-button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background: #f3f4f6;
+  color: #111827;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.reptile-button.active,
+.reptile-button:hover {
+  background: #3b82f6;
+  color: white;
+  transform: translateY(-1px);
+}
+
+/* Pets Grid */
+.pets-grid {
+  display: flex;
+  flex-direction: column;  /* stack vertically */
+  gap: 30px;
+  width: 100%;             /* fill card width */
+  align-items: center;     /* center each pet card */
+  margin-top: 20px;
+}
+
+/* Individual Pet Cards */
+.pet-card {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+
+  width: 100%;          /* fill parent width */
+  max-width: 500px;     /* limit card width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* center content */
+}
+
+/* Image wrapper for portrait/landscape */
+.pet-image-wrapper {
+  width: 100%;
+  height: 400px;           /* uniform height */
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.pet-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        /* crop to fill */
+  object-position: center;
+  display: block;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.pet-image-wrapper img:hover {
+  transform: scale(1.05);
+}
+
+/* Fun fact text */
+.pet-fun-fact {
+  font-style: italic;
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .pet-image-wrapper {
+    height: 300px;
+  }
+  .pet-card {
+    max-width: 90%;
+  }
+}
