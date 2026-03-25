@@ -159,7 +159,7 @@ const reptiles = {
       },
     ],
   },
-  frogs: {
+  inverts: {
     name: "Invertebrates coming soon!",
     pets: [
     ],

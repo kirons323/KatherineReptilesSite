@@ -9,7 +9,7 @@ export default function Reptiles() {
   return (
     <section className="reptile-container">
       <div className="reptile-card">
-        <h1>My Reptiles 🦎</h1>
+        <h1>My Exotic Pets 🦎</h1>
 
         {/* Reptile Selector */}
         <div className="reptile-selector">
