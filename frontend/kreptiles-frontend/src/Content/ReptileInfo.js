@@ -5,12 +5,12 @@ const reptiles = {
       {
         name: "Charlie",
         image: "Charlie.jpg",
-        funFact: "Charlie was my first leopard gecko. He is a sweet boy who has given up trying to shed by himself and relies on me to do it.",
+        funFact: "Charlie is my first leopard gecko. He is a sweet boy who has given up trying to shed by himself and relies on me to do it.",
       },
       {
         name: "Dr. Toboggan",
         image: "DrToboggan.jpg",
-        funFact: "Dr. T (named for an alias of Frank Reynolds from It's Always Sunny, also known by me as 'The Leopard Gecko from Hell'. Look at his beady little eyes...",
+        funFact: "Dr. T (named for an alias of Frank Reynolds from It's Always Sunny), also known by me as 'The Leopard Gecko from Hell'. Look at his beady little eyes...",
       },
       {
         name: "Cheeto",
@@ -80,7 +80,7 @@ const reptiles = {
       {
         name: "Magic Mike",
         image: "MagicMike.jpg",
-        funFact: "Magic Mike is a Chahoua Gecko. He likes to hang at weird poses off his coconut and the hanging fixture.",
+        funFact: "Magic Mike is a Chahoua Gecko. He likes to hang in weird poses off his coconut and the hanging fixture.",
       },
       {
         name: "Minerva",
