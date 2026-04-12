@@ -59,6 +59,11 @@
   transition: background 0.2s, transform 0.1s;
 }
 
+.resume-button:hover {
+  background-color: #2563eb;
+  transform: translateY(-1px);
+}
+
 /* Timeline section */
 .timeline-section {
   margin-top: 30px;
@@ -156,11 +161,6 @@
 .contact-link:hover {
   background-color: #e5e7eb;
   transform: translateY(-2px);
-}
-
-.resume-button:hover {
-  background-color: #2563eb;
-  transform: translateY(-1px);
 }
 
 @media (max-width: 700px) {
