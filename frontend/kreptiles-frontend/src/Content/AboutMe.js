@@ -29,12 +29,12 @@ export default function AboutMe() {
             <h2>Work Timeline</h2>
             <ul className="timeline-list">
             <li>
-                <div className="timeline-year">2023-2025</div>
+                <div className="timeline-year">2026 - present</div>
                 <div className="timeline-details">
-                    <h3 className="timeline-title">Senior Software Engineer</h3>
-                    <i className="timeline-institution">Atlassian</i>
+                    <h3 className="timeline-title">AI Data Trainer, Part-Time</h3>
+                    <i className="timeline-institution">DataAnnotation</i>
                     <p className="timeline-project">
-                    Part of the "keep the lights on" team for Jira Align. We owned most of the building blocks for any work done in the application.
+                    Evaluated AI model responses, created scoring rubrics, and wrote prompts to test model abilities.
                     </p>
                 </div>
             </li>
