@@ -18,9 +18,6 @@ export default function AboutMe() {
               Hi! I'm someone who enjoys coding and having fun while doing so.
                Check out some of my exotic pet collection or crochet projects while you're here!
             </p>
-            <a href={ resume } download="KatherineIrons_Resume.pdf" className="resume-button">
-              Download Resume
-            </a>
           </div>
         </div>
 
@@ -31,10 +28,10 @@ export default function AboutMe() {
             <li>
                 <div className="timeline-year">2026 - present</div>
                 <div className="timeline-details">
-                    <h3 className="timeline-title">AI Data Trainer, Part-Time</h3>
-                    <i className="timeline-institution">DataAnnotation</i>
+                    <h3 className="timeline-title">Senior Software Engineer</h3>
+                    <i className="timeline-institution">BigTime Software</i>
                     <p className="timeline-project">
-                    Evaluated AI model responses, created scoring rubrics, and wrote prompts to test model abilities.
+                    Worked on new features and existing bugs for EPSA product.
                     </p>
                 </div>
             </li>

@@ -123,11 +123,6 @@ const reptiles = {
         funFact: "Corncob is a uromastyx. He looks at me with disgust and typically tends to hide in his cave if I'm around.",
       },
       {
-        name: "Butters",
-        image: "Butters.jpg",
-        funFact: "Butters is a very excitable Painted Agama. He frequently jumps out of his enclosure if I'm taking too long (>1 second) to feed  him. Also a vegetable hater but loves his bugs.",
-      },
-      {
         name: "Medusa",
         image: "Medusa.jpg",
         funFact: "Medusa is a blue-tongued skink. She is a mean lady who huffs angrily whenever I so much as look at her.",
@@ -135,7 +130,7 @@ const reptiles = {
       {
         name: "Vermithor",
         image: "Vermithor.jpg",
-        funFact: "Medusa is an Emerald Swift. He is the fastest animal in the house and does pushups at you if he's mad.",
+        funFact: "Vermithor is an Emerald Swift. He is the fastest animal in the house and does pushups at you if he's mad.",
       },
     ],
   },
