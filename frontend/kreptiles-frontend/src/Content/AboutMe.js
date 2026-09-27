@@ -1,6 +1,5 @@
 import "../css/AboutMe.css";
 import headshot from "../FileAssets/Images/headshot.jpg";
-import resume from "../FileAssets/KatherineIrons_Resume.pdf";
 
 export default function AboutMe() {
 
